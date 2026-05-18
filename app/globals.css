@@ -794,7 +794,7 @@ a:focus-visible {
 
 .closing-cta img {
   position: absolute;
-  display: none;
+  display: block;
   right: 10px;
   bottom: -8px;
   width: 272px;
@@ -826,6 +826,13 @@ a:focus-visible {
 
   .platform-section {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .closing-cta img {
+    right: 10px;
+    bottom: -8px;
+    width: 272px;
+    height: 153px;
   }
 }
 
