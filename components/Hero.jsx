@@ -12,7 +12,7 @@ function FeatureIcon({ children }) {
 
 export function Hero() {
   return (
-    <section className="hero-section" aria-labelledby="hero-title">
+    <section className="hero-section" id="trading" aria-labelledby="hero-title">
       <div className="hero-copy">
         <h1 id="hero-title">
           Trade Smarter.
@@ -24,11 +24,11 @@ export function Hero() {
         </p>
 
         <div className="hero-actions">
-          <a className="btn btn-primary hero-cta" href="#">
+          <a className="btn btn-primary hero-cta" href="#get-started">
             <span>Get Started</span>
             <ArrowIcon />
           </a>
-          <a className="btn btn-outline" href="#">
+          <a className="btn btn-outline" href="#platforms">
             Try Demo Account
           </a>
         </div>

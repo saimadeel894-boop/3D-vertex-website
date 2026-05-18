@@ -1,6 +1,6 @@
 export function TrustPanel() {
   return (
-    <section className="trust-panel" aria-label="Trusted regulatory authorities">
+    <section className="trust-panel" id="trust" aria-label="Trusted regulatory authorities">
       <p>TRUSTED BY TRADERS. REGULATED BY AUTHORITIES.</p>
       <img
         src="/assets/trust-logos-strip.jpg"

@@ -41,7 +41,7 @@ const markets = [
 
 export function MarketStrip() {
   return (
-    <section className="market-strip" aria-label="Market prices">
+    <section className="market-strip" id="markets" aria-label="Market prices">
       {markets.map((market) => (
         <article className={market.neutral ? "neutral" : undefined} key={market.symbol}>
           <div>

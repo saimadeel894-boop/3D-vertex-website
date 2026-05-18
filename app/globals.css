@@ -58,7 +58,9 @@
 }
 
 html {
+  overflow-x: hidden;
   background: var(--bg);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -94,6 +96,10 @@ main,
 footer {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+section {
+  scroll-margin-top: 24px;
 }
 
 a:focus-visible {
@@ -812,6 +818,10 @@ a:focus-visible {
 
   .advantage-grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .advantage-card img {
+    max-height: 126px;
   }
 
   .platform-section {

@@ -8,7 +8,7 @@ function ArrowIcon() {
 
 export function Platforms() {
   return (
-    <section className="platform-section" aria-labelledby="platform-title">
+    <section className="platform-section" id="platforms" aria-labelledby="platform-title">
       <div className="platform-art" aria-hidden="true">
         <img src="/assets/platform-devices.jpg" alt="" width="430" height="286" loading="lazy" />
       </div>
@@ -54,7 +54,7 @@ export function Platforms() {
           </article>
         </div>
 
-        <a className="btn btn-primary platform-btn" href="#">
+        <a className="btn btn-primary platform-btn" href="#platforms">
           <span>Explore Platforms</span>
           <ArrowIcon />
         </a>

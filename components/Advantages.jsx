@@ -47,7 +47,7 @@ const advantages = [
 
 export function Advantages() {
   return (
-    <section className="advantages-section" aria-labelledby="advantages-title">
+    <section className="advantages-section" id="advantages" aria-labelledby="advantages-title">
       <h2 id="advantages-title">
         Advantages Built for <strong>Serious Traders</strong>
       </h2>
